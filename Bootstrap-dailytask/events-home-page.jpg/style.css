@@ -8,10 +8,12 @@
 .card{
     padding: 10%;
     border-radius: 20px;
+    border: 2px solid;
 }
 
 .card-img{
 border-radius: 50%;
+height: 100%;
 }
 
 h2{
@@ -21,5 +23,23 @@ h2{
 }
 
 .btn{
-    border-radius: 5%;
+    border-radius: 50%;
+    width: auto;
     }
+
+
+#head_card{
+width: fit-content;
+height: min-content;
+color: white;
+padding: 2%;
+background-color: red;
+}
+
+#heading{
+    padding-bottom: 2%;
+}
+
+#first_row,#secon_row{
+    padding-top: 3%;
+}
