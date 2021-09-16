@@ -1,12 +1,25 @@
+body{
+    background-color: rgb(202, 190, 190);
+}
+
+*{
+    border-radius: 5%;
+}
+
 .container{
     height: 100%;
     padding: 5%;
     justify-content: center;
-    border: 5px solid;
+    border:rgb(118, 192, 8) 5px solid;
+    background-color: white;
+    border-radius: 0;
 }
 input{
     width: 100%;
+    
 }
+
+
 
 label{
    
@@ -14,8 +27,13 @@ label{
     text-align: right;
 }
 
-h2,h6{
+h2,h4{
     text-align: center;
+    background-color: rgb(247, 232, 149);
+   border-style: groove;
+   border-radius: 50%;
+   padding: 3%;
+   color: indigo;
 }
 img{
     border-radius: 50%;
@@ -23,14 +41,16 @@ img{
 }
 
 #img_holder{
-    
-    border: 2px solid;
+    border:5px solid;
+    border-right: none;
+    background-color: rgb(247, 232, 149);
+    border-radius: 0;
    
 }
 
 #content_holder{
-
-    border: 2px solid;
+    background-color: rgb(247, 232, 149);
+    border: 5px solid;
     padding: 10%;
 
 }
@@ -39,4 +59,43 @@ span{
     color: red;
     font-weight: bold;
     font-size: larger;
+}
+
+.col-8{
+    border:5px solid;
+    padding: 5%;
+    background-color: rgb(247, 232, 149);
+    border-radius: 0;
+    border-left: none;
+   
+}
+
+#sub_btn:hover{
+    background-color: green;
+    color: black;
+}
+
+#can_btn:hover{
+    background-color: rgb(199, 29, 29);
+    color: black;
+}
+
+.container{
+    border: initial;
+}
+
+#event_no,#seats_no{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+label{
+
+    color: indigo;
+    font-weight: bold;
+}
+
+select{
+    width: 50%;
 }
