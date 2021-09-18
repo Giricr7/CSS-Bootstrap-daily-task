@@ -41,8 +41,6 @@ img{
 
 #img_holder{
     border:5px solid;
-    
-   background-color: white;
     border-radius: 0;
    
 }
@@ -63,7 +61,7 @@ span{
 .col-12{
     border:5px solid;
     padding: 5%;
-   background-color: white;
+  
     border-radius: 0;
     
    
@@ -71,12 +69,14 @@ span{
 
 #sub_btn:hover{
     background-color: green;
-    color: black;
+   
+    border-radius: 20px;
 }
 
 #can_btn:hover{
     background-color: rgb(199, 29, 29);
-    color: black;
+   
+    border-radius: 20px;
 }
 
 .container{
@@ -87,15 +87,23 @@ span{
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+    
 }
 
 label{
 
-    color: indigo;
+    color: white;
     font-weight: bold;
+    
 }
 
 select{
     width: 50%;
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid;
 }
 
