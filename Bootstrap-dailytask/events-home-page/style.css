@@ -2,19 +2,31 @@
     min-width: 95%;
     padding-top: 5%;
     padding-bottom: 5%;
+    background-image: url('https://wallpaperaccess.com/full/1524018.jpg');
+    background-size: cover;
 
 }
 
 .card{
-    padding: 10%;
+    padding: 7%;
     border-radius: 20px;
-    border: 2px solid;
+    border: 10px solid black;
+    transition: transform 250ms;
+
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    background: rgb(115, 245, 227);
+    color: darkmagenta;
 }
 
 .card-img{
-border-radius: 50%;
+border-radius: 35%;
 height: 100%;
+
 }
+
 
 h2{
 
@@ -23,8 +35,11 @@ h2{
 }
 
 .btn{
-    border-radius: 50%;
     width: auto;
+    }
+
+    .btn:hover{
+        border-radius: 20px;
     }
 
 
@@ -33,8 +48,13 @@ width: fit-content;
 height: min-content;
 color: white;
 padding: 2%;
-background-color: red;
+background-color:black;
  border-radius: 50%;
+ border: 2px white solid;
+}
+
+#head_card:hover{
+    transform: translateY(0px);
 }
 
 #heading{
@@ -44,3 +64,10 @@ background-color: red;
 #first_row,#secon_row{
     padding-top: 3%;
 }
+
+h4{
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
+
