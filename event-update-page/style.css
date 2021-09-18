@@ -37,6 +37,8 @@ h2,h4{
 img{
     border-radius: 50%;
     align-self: center;
+    
+    border: 2px solid white;
 }
 
 #img_holder{
